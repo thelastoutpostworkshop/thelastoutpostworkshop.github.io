@@ -28,7 +28,7 @@ type Tool = {
 
 const TOOL_ESP_CONNECT = 'https://thelastoutpostworkshop.github.io/microcontroller_devkit/espconnect/'
 const TOOL_ARDUINOMAKERWORKSHOP = 'https://youtu.be/rduTUUVkzqM'
-const TOOL_GPIOVIEWER = 'https://youtu.be/rduTUUVkzqM'
+const TOOL_GPIOVIEWER = 'https://youtu.be/UxkOosaNohU'
 const TOOL_SLASHCOMPILETIME = 'https://youtu.be/7zbgSVHE4EE'
 const TOOL_PARTITION_BUILDER =
   'https://thelastoutpostworkshop.github.io/microcontroller_devkit/esp32partitionbuilder/'
