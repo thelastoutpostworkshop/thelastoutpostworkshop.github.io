@@ -1,7 +1,6 @@
 Purpose
 
 This repository hosts the public landing site for The Last Outpost Workshop:
-
 https://thelastoutpostworkshop.github.io/
 
 The site is complete. Future work should be incremental, preserving layout, performance, and the sci-fi/HUD visual identity.
