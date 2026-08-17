@@ -3,17 +3,17 @@ import { onMounted, type Component } from 'vue'
 
 import {
   ArrowRight,
+  CirclePlay,
+  Code,
   Cpu,
-  Github,
   HardDrive,
   Layers3,
   PlugZap,
   PanelRightClose,
   Radio,
-  Youtube,
   Loader,
   TimerOff
-} from 'lucide-vue-next'
+} from '@lucide/vue'
 
 import ToolCard from '@/components/ToolCard.vue'
 
@@ -204,11 +204,11 @@ const year = new Date().getFullYear()
           <div class="flex items-center gap-2">
             <a class="icon-btn" :href="GITHUB_URL" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"
               title="GitHub">
-              <Github class="h-5 w-5" aria-hidden="true" />
+              <Code class="h-5 w-5" aria-hidden="true" />
             </a>
             <a class="icon-btn" :href="YOUTUBE_URL" target="_blank" rel="noopener noreferrer"
               aria-label="YouTube channel" title="YouTube">
-              <Youtube class="h-5 w-5" aria-hidden="true" />
+              <CirclePlay class="h-5 w-5" aria-hidden="true" />
             </a>
             <a class="btn btn-primary hidden sm:inline-flex" :href="TOOL_ESP_CONNECT" target="_blank"
               rel="noopener noreferrer">

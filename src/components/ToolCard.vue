@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Component } from 'vue'
-import { ExternalLink } from 'lucide-vue-next'
+import { ExternalLink } from '@lucide/vue'
 
 type Tool = {
   title: string
